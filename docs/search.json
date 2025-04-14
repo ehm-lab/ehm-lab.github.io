@@ -1,5 +1,12 @@
 [
   {
+    "objectID": "rcode.html",
+    "href": "rcode.html",
+    "title": "EHM-Lab code repositories",
+    "section": "",
+    "text": "EHM-Lab code repositories\n\n\n\n\n\n\nSearch and subset repositories using the boxes\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n Back to top"
+  },
+  {
     "objectID": "index.html",
     "href": "index.html",
     "title": "EHM-Lab",
@@ -25,28 +32,28 @@
     "href": "data.html",
     "title": "Open-access data",
     "section": "",
-    "text": "https://doi.org/10.5281/zenodo.14004321\nThis repository contains the data and results from the paper Estimating future heat-related and cold-related mortality under climate change, demographic and adaptation scenarios in 854 European cities published in Nature Medicine (https://doi.org/10.1038/s41591-024-03452-2).\n\n\n\nhttps://doi.org/10.5281/zenodo.7672107\nContains data to reconstruct the exposure-response functions (ERF) of temperature-related mortality by five 5 age groups in 854 cities in Europe derived in the study by Masselot et al. 2023, Excess mortality attributed to heat and cold: a health impact assessment study in 854 cities in Europe, The Lancet Planetary Health (https://doi.org/10.1016/S2542-5196(23)00023-2).\n\n\n\nhttps://doi.org/10.5281/zenodo.13983169\nStores synthetic datasets used to reproduce the analysis of long-term effects of air pollution in this article https://pubmed.ncbi.nlm.nih.gov/39435892/ as shown through this https://github.com/gasparrini/UKB-pm25deathlong GitHub repository."
+    "text": "This repository contains the data and results from the paper Estimating future heat-related and cold-related mortality under climate change, demographic and adaptation scenarios in 854 European cities published in Nature Medicine (https://doi.org/10.1038/s41591-024-03452-2).\n\n\n\n\nContains data to reconstruct the exposure-response functions (ERF) of temperature-related mortality by five 5 age groups in 854 cities in Europe derived in the study by Masselot et al. 2023, Excess mortality attributed to heat and cold: a health impact assessment study in 854 cities in Europe, The Lancet Planetary Health (https://doi.org/10.1016/S2542-5196(23)00023-2).\n\n\n\n\nStores synthetic datasets used to reproduce the analysis of long-term effects of air pollution in this article https://pubmed.ncbi.nlm.nih.gov/39435892/ as shown through this https://github.com/gasparrini/UKB-pm25deathlong GitHub repository."
   },
   {
     "objectID": "data.html#projection-of-temperature-related-mortality-in-854-european-cities-under-climate-change-and-adaptation-scenarios",
     "href": "data.html#projection-of-temperature-related-mortality-in-854-european-cities-under-climate-change-and-adaptation-scenarios",
     "title": "Open-access data",
     "section": "",
-    "text": "https://doi.org/10.5281/zenodo.14004321\nThis repository contains the data and results from the paper Estimating future heat-related and cold-related mortality under climate change, demographic and adaptation scenarios in 854 European cities published in Nature Medicine (https://doi.org/10.1038/s41591-024-03452-2)."
+    "text": "This repository contains the data and results from the paper Estimating future heat-related and cold-related mortality under climate change, demographic and adaptation scenarios in 854 European cities published in Nature Medicine (https://doi.org/10.1038/s41591-024-03452-2)."
   },
   {
     "objectID": "data.html#temperature-related-mortality-exposure-response-functions-for-854-cities-in-europe",
     "href": "data.html#temperature-related-mortality-exposure-response-functions-for-854-cities-in-europe",
     "title": "Open-access data",
     "section": "",
-    "text": "https://doi.org/10.5281/zenodo.7672107\nContains data to reconstruct the exposure-response functions (ERF) of temperature-related mortality by five 5 age groups in 854 cities in Europe derived in the study by Masselot et al. 2023, Excess mortality attributed to heat and cold: a health impact assessment study in 854 cities in Europe, The Lancet Planetary Health (https://doi.org/10.1016/S2542-5196(23)00023-2)."
+    "text": "Contains data to reconstruct the exposure-response functions (ERF) of temperature-related mortality by five 5 age groups in 854 cities in Europe derived in the study by Masselot et al. 2023, Excess mortality attributed to heat and cold: a health impact assessment study in 854 cities in Europe, The Lancet Planetary Health (https://doi.org/10.1016/S2542-5196(23)00023-2)."
   },
   {
     "objectID": "data.html#synthetic-datasets-of-the-uk-biobank-cohort",
     "href": "data.html#synthetic-datasets-of-the-uk-biobank-cohort",
     "title": "Open-access data",
     "section": "",
-    "text": "https://doi.org/10.5281/zenodo.13983169\nStores synthetic datasets used to reproduce the analysis of long-term effects of air pollution in this article https://pubmed.ncbi.nlm.nih.gov/39435892/ as shown through this https://github.com/gasparrini/UKB-pm25deathlong GitHub repository."
+    "text": "Stores synthetic datasets used to reproduce the analysis of long-term effects of air pollution in this article https://pubmed.ncbi.nlm.nih.gov/39435892/ as shown through this https://github.com/gasparrini/UKB-pm25deathlong GitHub repository."
   },
   {
     "objectID": "pkgs.html",
