@@ -116,3 +116,31 @@ p {
 .navbar-brand {
     font-size: 1.25rem; /* slightly larger font size */
 }
+
+body.quarto-dark table.dataTable,
+body.quarto-dark .dataTables_wrapper {
+  color: white;
+}
+
+body.quarto-dark table.dataTable thead th,
+body.quarto-dark table.dataTable tbody td {
+  color: white;
+}
+
+body.quarto-dark .dataTables_filter input,
+body.quarto-dark .dataTables_length select,
+body.quarto-dark .paginate_button {
+  color: white;
+  background-color: #222;
+  border: 1px solid #444;
+}
+
+body.quarto-dark .dataTables_wrapper .dataTables_info {
+  color: white;
+}
+
+body.quarto-dark .paginate_button.current {
+  background-color: #444 !important;
+  color: white !important;
+}
+
