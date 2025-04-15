@@ -26,6 +26,11 @@ jobs:
         uses: quarto-dev/quarto-actions/setup@v2
         with:
           version: "1.3.340"
+          
+      - name: Install system dependencies
+        run: |
+          sudo apt-get update
+          sudo apt-get install -y libcurl4-openssl-dev
 
       - name: Install R packages
         run: |
