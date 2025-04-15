@@ -1,0 +1,45 @@
+---
+pagetitle: "EHM-Lab R Code by Research Area"
+title: ""
+toc: true
+format: html
+---
+
+```{r}
+library(DT)
+```
+
+# EHM-Lab code repositories by Research Area
+
+## Temperature
+
+```{r}
+temperature <- readRDS("tables/temperature.RDS")
+datatable(temperature,
+              rownames = FALSE, 
+              escape = FALSE,
+              filter = "top",
+              options = list(autoWidth = TRUE, pageLength=7))
+```
+
+## Air Pollution
+
+```{r}
+air_pollution <- readRDS("tables/air_pollution.RDS")
+datatable(air_pollution,
+              rownames = FALSE, 
+              escape = FALSE,
+              filter = "top",
+              options = list(autoWidth = TRUE, pageLength=7))
+```
+
+## Other
+
+```{r}
+other <- readRDS("tables/other.RDS")
+datatable(other,
+              rownames = FALSE, 
+              escape = FALSE,
+              filter = "top",
+              options = list(autoWidth = TRUE, pageLength=14))
+```

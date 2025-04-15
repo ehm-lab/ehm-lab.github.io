@@ -1,0 +1,61 @@
+project:
+  type: website
+  output-dir: docs
+
+website:
+  title: "EHM-Lab"
+  description: "Research lab focused on methodological and substantive research on health effects of environmental exposures."
+  favicon: images/logo.png
+  page-navigation: true
+  back-to-top-navigation: true
+  twitter-card: true
+  site-url: "https://ehm-lab.github.io/"
+  search:
+    location: navbar
+    type: overlay
+  navbar:
+    right:
+      - text: R Code
+        menu: 
+        - href: rcode.qmd
+          text: All
+        - href: rcode_bytype.qmd
+          text: by Type
+        - href: rcode_byresarea.qmd
+          text: by Research Area
+      - href: pkgs.qmd
+        text: Packages
+      - href: data.qmd
+        text: Data
+      - href: apps.qmd
+        text: Apps
+      - icon: bars
+        menu:
+          - text: LSHTM Site
+            icon: building
+            href: https://www.lshtm.ac.uk/ehm-lab
+          - text: EHM-Lab on GitHub
+            icon: github
+            href: https://github.com/ehm-lab
+    alignment: center
+    border: true
+
+format:
+  html:
+    theme:
+      light: litera
+      dark: cyborg
+    grid:
+      sidebar-width: 250px
+      body-width: 3000px
+      margin-width: 150px
+    css: styles.css
+    toc: true
+    toc-location: right
+    link-external-icon: true
+    link-external-newwindow: true
+
+execute: 
+  echo: false
+  warning: false
+  message: false

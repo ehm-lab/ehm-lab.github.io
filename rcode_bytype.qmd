@@ -1,0 +1,80 @@
+---
+pagetitle: "EHM-Lab R Code by Type"
+title: ""
+toc: true
+format: html
+---
+
+```{r}
+library(DT)
+```
+
+# EHM-Lab code repositories by Type
+
+## Analysis
+
+```{r}
+analysis <- readRDS("tables/analysis.RDS")
+
+datatable(analysis,
+              rownames = FALSE, 
+              escape = FALSE,
+              filter = "top",
+              options = list(autoWidth = TRUE, pageLength=5))
+```
+
+## Tutorial
+
+```{r}
+tutorial <- readRDS("tables/tutorial.RDS")
+
+datatable(tutorial,
+              rownames = FALSE, 
+              escape = FALSE,
+              filter = "top",
+              options = list(autoWidth = TRUE, pageLength=5))
+```
+
+## Simulation
+
+```{r}
+simulation <- readRDS("tables/simulation.RDS")
+datatable(simulation,
+              rownames = FALSE, 
+              escape = FALSE,
+              filter = "top",
+              options = list(autoWidth = TRUE, pageLength=5))
+```
+
+## Dataset
+
+```{r}
+dataset <- readRDS("tables/dataset.RDS")
+datatable(dataset,
+              rownames = FALSE, 
+              escape = FALSE,
+              filter = "top",
+              options = list(autoWidth = TRUE, pageLength=5))
+```
+
+## Package
+
+```{r}
+package <- readRDS("tables/package.RDS")
+datatable(package,
+              rownames = FALSE, 
+              escape = FALSE,
+              filter = "top",
+              options = list(autoWidth = TRUE, pageLength=5))
+```
+
+## App
+
+```{r}
+apps <- readRDS("tables/shiny_app.RDS")
+datatable(apps,
+              rownames = FALSE, 
+              escape = FALSE,
+              filter = "top",
+              options = list(autoWidth = TRUE, pageLength=5))
+```

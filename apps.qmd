@@ -1,0 +1,25 @@
+---
+pagetitle: "EHM-Lab Apps"
+title: ""
+toc: false
+format: 
+  html:
+    grid:
+      sidebar-width: 250px
+      body-width: 3000px
+      margin-width: 150px
+---
+
+# EUcityProj: Health Impact Projections Map Apps
+
+- **Paper:** [![Static Badge](https://img.shields.io/badge/Nat_Med_(2025)-https://doi.org/10.1038/s41591--024--03452--2-firebrick?link=https://doi.org/10.1038/s41591-024-03452-2)](https://doi.org/10.1038/s41591-024-03452-2)  
+- **Data repository:** [![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.14004322.svg)](https://doi.org/10.5281/zenodo.14004322)   
+- **Web-app:** [https://ehm-lab.shinyapps.io/vistemphip/](https://ehm-lab.shinyapps.io/vistemphip/)  
+
+> Masselot, P., Mistry, M.N., Rao, S. *et al.* Estimating future heat-related and cold-related mortality under climate change, demographic and adaptation scenarios in 854 European cities. *Nat Med (2025).* [https://doi.org/10.1038/s41591-024-03452-2](https://doi.org/10.1038/s41591-024-03452-2)  
+
+```{=html}
+<iframe width="1300" height="850" src="https://ehm-lab.shinyapps.io/vistemphip/" title="EUcityProj-app"></iframe>
+```
+
+A previous and slightly different version of this app can be found here: [https://ehm-lab.shinyapps.io/hipmapp/](https://ehm-lab.shinyapps.io/hipmapp/)

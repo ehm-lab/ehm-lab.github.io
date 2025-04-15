@@ -1,0 +1,31 @@
+---
+pagetitle: "EHM-Lab"
+title: ""
+toc: false
+lightbox: true
+---
+
+::: {.hero-grid}
+
+::: {.col-6 #hero-textcell}
+
+## Environment and Health <br> Modelling Lab
+
+::: {#hero-text}
+The [EHM-Lab](https://www.lshtm.ac.uk/ehm-lab) is [developing and applying](https://www.lshtm.ac.uk/research/centres-projects-groups/ehm-lab#research) state-of-the-art modelling tools to investigate environmental health risks. Here you can find [software](rcode_bytype.qmd) and [data](data.qmd) resources, and interactive [visualisations](apps.qmd) of research outputs.
+:::
+
+::: {#hero-icons}
+[{{< fa solid building >}}](https://www.lshtm.ac.uk/research/centres-projects-groups/ehm-lab)
+[{{< fa brands github >}}](https://github.com/ehm-lab)
+[{{< fa solid file-lines >}}](https://www.lshtm.ac.uk/research/centres-projects-groups/ehm-lab#publications)
+:::
+
+:::
+
+::: {.col-6 #hero-image}
+<img id="cycle-image" src="images/logo.png" alt="A complex exposure-response plot"/>
+:::
+
+:::
+

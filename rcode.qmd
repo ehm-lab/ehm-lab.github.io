@@ -1,0 +1,26 @@
+---
+pagetitle: "EHM-Lab R Code"
+title: ""
+toc: true
+format: html
+---
+
+```{r}
+library(DT)
+```
+
+# EHM-Lab code repositories
+
+::: {.callout-tip}
+## Search and subset repositories using the boxes
+:::
+
+```{r}
+all_repos <- readRDS("tables/all_repos.RDS")
+datatable(all_repos,
+              rownames = FALSE, 
+              escape = FALSE,
+              filter = "top",
+              options = list(autoWidth = TRUE, pageLength=50))
+```
+
