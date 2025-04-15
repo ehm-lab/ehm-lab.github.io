@@ -1,6 +1,6 @@
 # EHM-Lab Resources
 
-The EHM-Lab has produced a set of openly accessible resources which can be explored in full at [ehm-lab.github.io](ehm-lab.github.io).
+The EHM-Lab has produced a set of openly accessible resources which can be explored in full at [ehm-lab.github.io](https://ehm-lab.github.io).
 
 Resources include datasets, code repositories linked to tutorials and published analyses, R packages and other software tools, and web apps to showcase research outputs. Specifically:
 
