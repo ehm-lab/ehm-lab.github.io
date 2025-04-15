@@ -1,0 +1,118 @@
+/*Main CSS file/
+/* enable scroll snapping on the body, and fonts */
+
+body {
+  font-family: 'Open Sans', sans-serif; /* polished font */
+  line-height: 1.6; /* comfortable line spacing */
+  scroll-snap-type: y mandatory; /* snap only in vertical direction, mandatory */
+  overflow-y: scroll; /* ensure vertical scrolling is enabled */
+}
+
+/* light theme */
+body.quarto-light {
+  background:
+    linear-gradient(-90deg, rgba(0, 0, 0, .04) 1px, transparent 1px),
+    linear-gradient(rgba(0,0,0,.04) 1px, transparent 1px),
+   #f2f2f2;
+  background-size:
+    4px 4px,
+    4px 4px,
+    80px 80px,
+    80px 80px,
+    80px 80px,
+    80px 80px,
+    80px 80px,
+    80px 80px;
+  color: #0f0700;
+}
+
+/* dark theme */
+body.quarto-dark {
+  background:
+    linear-gradient(-90deg, rgba(63, 63, 63, 0.5) 1px, transparent 1px), /* red lines */
+    linear-gradient(rgba(63, 63, 63, 0.5) 1px, transparent 1px), /* yellow lines */
+    #000000; /* black background */
+  background-size:
+    4px 4px,
+    4px 4px,
+    80px 80px,
+    80px 80px,
+    80px 80px,
+    80px 80px,
+    80px 80px,
+    80px 80px;
+  color: aliceblue
+}
+
+p {
+  font-family: 'Open Sans', sans-serif !important;
+}
+
+/* make the hero section take full height */
+.hero-grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  width: 100%;
+  height: 100vh; /* take up 100% of the viewport height */
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  scroll-snap-align: start; /* snap to the top of the section */
+}
+
+.hero-grid .col-6 {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items:center;
+  text-align: center;
+  padding-left: 30px;
+}
+
+#hero-image {
+  align-self: flex-start; /*  aligns the text to the top */
+  margin-top: -60px; /* js and css solutions make this need to change */
+  width: 100%;
+  height: 100%;
+}
+
+#cycle-image {
+  opacity: 1;
+  transition: opacity 0.5s ease-in-out; /* 0.5s fade transition */
+}
+
+#hero-textcell {
+  width: 100%;
+  height: 100%;
+  margin-top: -100px; /* move it up a bit more from the top if needed */
+}
+
+/* After being hovered or visited, the link stays visible and bold */
+#hero-text p a.visited-link {
+  color: inherit; /* keep the link visible */
+  background-color: transparent; /* no more black bar */
+  font-weight: bold; /* make the text bold */
+}
+
+#hero-icons{
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items:center;
+}
+
+#hero-icons {
+  margin: 0 10px; /* not doing anythign at the moment link seems to destroy this apply a little space between each icon */
+}
+
+/* style for the section that follows the hero grid */
+.content-section {
+  height: 100vh; /* ensure each section takes full viewport height */
+  scroll-snap-align: start; /* snap to the top of the section */
+}
+
+/* navbar text size */
+.navbar .navbar-nav > li > a,
+.navbar-brand {
+    font-size: 1.25rem; /* slightly larger font size */
+}
