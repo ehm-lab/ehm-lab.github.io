@@ -35,7 +35,7 @@ jobs:
       - name: Install R packages
         run: |
           Rscript -e 'install.packages(c("remotes","pak"), repos="https://cloud.r-project.org")'
-          Rscript -e 'pak::pak(c("rmarkdown","cranlogs","knitr","stringr","tools","gh","dplyr","purrr","base64enc","commonmark","rlang"), ask=FALSE)'
+          Rscript -e 'pak::pak(c("rmarkdown","cranlogs","knitr","stringr","tools","gh","dplyr","purrr","base64enc","commonmark","rlang","DT"), ask=FALSE)'
 
       - name: Run build script
         run: |

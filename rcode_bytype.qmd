@@ -16,7 +16,7 @@ library(DT)
 ```{r}
 analysis <- readRDS("tables/analysis.RDS")
 
-datatable(analysis,
+DT::datatable(analysis,
               rownames = FALSE, 
               escape = FALSE,
               filter = "top",
@@ -28,7 +28,7 @@ datatable(analysis,
 ```{r}
 tutorial <- readRDS("tables/tutorial.RDS")
 
-datatable(tutorial,
+DT::datatable(tutorial,
               rownames = FALSE, 
               escape = FALSE,
               filter = "top",
@@ -39,7 +39,7 @@ datatable(tutorial,
 
 ```{r}
 simulation <- readRDS("tables/simulation.RDS")
-datatable(simulation,
+DT::datatable(simulation,
               rownames = FALSE, 
               escape = FALSE,
               filter = "top",
@@ -50,7 +50,7 @@ datatable(simulation,
 
 ```{r}
 dataset <- readRDS("tables/dataset.RDS")
-datatable(dataset,
+DT::datatable(dataset,
               rownames = FALSE, 
               escape = FALSE,
               filter = "top",
@@ -61,7 +61,7 @@ datatable(dataset,
 
 ```{r}
 package <- readRDS("tables/package.RDS")
-datatable(package,
+DT::datatable(package,
               rownames = FALSE, 
               escape = FALSE,
               filter = "top",
@@ -72,7 +72,7 @@ datatable(package,
 
 ```{r}
 apps <- readRDS("tables/shiny_app.RDS")
-datatable(apps,
+DT::datatable(apps,
               rownames = FALSE, 
               escape = FALSE,
               filter = "top",

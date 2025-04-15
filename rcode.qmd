@@ -17,7 +17,7 @@ library(DT)
 
 ```{r}
 all_repos <- readRDS("tables/all_repos.RDS")
-datatable(all_repos,
+DT::datatable(all_repos,
               rownames = FALSE, 
               escape = FALSE,
               filter = "top",

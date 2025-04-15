@@ -8,7 +8,7 @@ format: html
 ```{r}
 library(DT)
 ehm_pkgdf <- readRDS("tables/ehm_pkgdf.RDS")
-datatable(subset(ehm_pkgdf, select=-Description),
+DT::datatable(subset(ehm_pkgdf, select=-Description),
           escape=FALSE,
           rownames = FALSE, 
           filter = "top",

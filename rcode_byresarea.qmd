@@ -15,7 +15,7 @@ library(DT)
 
 ```{r}
 temperature <- readRDS("tables/temperature.RDS")
-datatable(temperature,
+DT::datatable(temperature,
               rownames = FALSE, 
               escape = FALSE,
               filter = "top",
@@ -26,7 +26,7 @@ datatable(temperature,
 
 ```{r}
 air_pollution <- readRDS("tables/air_pollution.RDS")
-datatable(air_pollution,
+DT::datatable(air_pollution,
               rownames = FALSE, 
               escape = FALSE,
               filter = "top",
@@ -37,7 +37,7 @@ datatable(air_pollution,
 
 ```{r}
 other <- readRDS("tables/other.RDS")
-datatable(other,
+DT::datatable(other,
               rownames = FALSE, 
               escape = FALSE,
               filter = "top",
