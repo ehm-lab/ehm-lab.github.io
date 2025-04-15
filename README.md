@@ -1,28 +1,13 @@
-# ehmquarto
+# EHM-Lab Resources
 
-To update site: 
-0. clone this repo and set as working directory
-1. run/source utils_ehm_site.R (requires setting up a github API connection)
-  this updates all the tables by calling the github API with e.g if a DOI has been added to a README
-2. open Terminal tab in RStudio (it's next to the console tab) and run: "quarto render"
-3. site is built in the docs/ directory
-4. open the github repo for ehm-lab.github.io (not the site)
-5. click add files and drag docs/ to it, after files have loaded commit-push, done
-6. site should reflect updates after a few minutes
+The EHM-Lab has produced a set of openly accessible resources which can be explored in full at [ehm-lab.github.io](ehm-lab.github.io).
 
-To run locally: follow 0 to 3 above, then open index.html found in docs/ directory.
+Resources include datasets, code repositories linked to tutorials and published analyses, R packages and other software tools, and web apps to showcase research outputs. Specifically:
 
+[Code repositories](https://ehm-lab.github.io/rcode.html): a set of repositories stored in the EHM-Lab’s GitHub webpage. Each repository includes code (and optionally data) to reproduce (in full or in part) tutorials on specific methodologies or published epidemiological analyses. Links to full-text versions of the publications are included in the repositories.
 
-Suggested structure for ehm-lab repos
+[Data](https://ehm-lab.github.io/data.html): a series of entire databases produced by the EHM-Lab and made available freely in open-access form. These databases contain input data, results, and synthetic datasets linked to specific publications. They can be used to replicate epidemiological analyses, to showcase and disseminate results, or for further research.
 
--   **About:** Short, single-sentence description.
--   **Topics:** Prefer pre-selected tags (see topics below).
--   **README:** Title matches "About" section. First DOI to appear will be extracted.
+[Web apps](https://ehm-lab.github.io/apps.html): web tools created by the EHM-Lab using R-Shiny and released as interactive apps. They allow users to explore results from epidemiological analyses using maps and tables, and to download selected or entire sets of data.
 
-Changes are still possible after forking and can be synced.
-
-|   | tags/topics |
-|-------------------------------------------|-----------------------------|
-| Type | tutorial; analysis; simulation; shiny-app; dataset; package |
-| Area | air-pollution; heat-waves; temperature; mortality; infectious-disease; small-area-analysis; health-impact-projection; urban-health; health-impact-assessment; mcc |
-| Methods | distributed-lag-models; exposure-linkage; time-series; meta-analysis; bayesian; linear-mixed-effects; interrupted-time-series; case-time-series; study-design; penalized-regression; multi-stage-analysis; machine-learning; risk-attribution |
+[R Packages](https://ehm-lab.github.io/pkgs.html): packages for the R software developed by members of the EHM-Lab, released in the Comprehensive R Archive Network (CRAN). Links to the official CRAN webpages and the development versions in related GitHub pages are provided.
