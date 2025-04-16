@@ -10,6 +10,8 @@ library(base64enc)
 library(commonmark)
 library(rlang)
 
+dir.create("tables", showWarnings = FALSE)
+
 # in rlang or make ourselves
 # `%||%` <- function(x, y) if (!is.null(x)) x else y
 
@@ -113,6 +115,7 @@ repo_df <- select(repo_df,
                   )
 
 all_repos <- subset(repo_df, select = -Tags)
+print("about to save first table")
 saveRDS(all_repos,"tables/all_repos.RDS")
 
 # split into repo-type tables
