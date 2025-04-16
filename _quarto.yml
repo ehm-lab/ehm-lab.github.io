@@ -5,7 +5,7 @@ project:
 website:
   title: "EHM-Lab"
   description: "Research lab focused on methodological and substantive research on health effects of environmental exposures."
-  favicon: images/logo.png
+  favicon: images/logo.png 
   page-navigation: true
   back-to-top-navigation: true
   twitter-card: true
