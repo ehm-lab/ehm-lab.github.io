@@ -52,7 +52,6 @@ format:
     css: styles.css
     toc: true
     toc-location: right
-    link-external-icon: true
     link-external-newwindow: true
 
 execute: 
