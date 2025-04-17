@@ -84,7 +84,7 @@ p {
 #hero-textcell {
   width: 100%;
   height: 100%;
-  margin-top: -100px; /* move it up a bit more from the top if needed */
+  margin-top: 0px; /* move it up a bit more from the top if needed */
 }
 
 /* After being hovered or visited, the link stays visible and bold */
@@ -148,4 +148,11 @@ p > a > img[src*="shields.io"] {
   display: inline;
   vertical-align: middle;
   margin-left: 0;
+}
+
+
+@media (min-width: 769px) {
+  #hero-textcell {
+    margin-top: -100px; /* preserve original look on desktop */
+  }
 }
