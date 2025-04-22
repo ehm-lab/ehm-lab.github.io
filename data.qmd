@@ -23,6 +23,7 @@ format: html
 
 [![](https://img.shields.io/badge/zenodo-https%3A%2F%2Fdoi.org%2F10.5281%2Fzenodo.14004321-red?link=https%3A%2F%2Fdoi.org%2F10.5281%2Fzenodo.14004321)](https://zenodo.org/records/14004322)
 
+
 This repository contains the data and results from the paper Estimating future heat-related and cold-related mortality under climate change, demographic and adaptation scenarios in 854 European cities published in Nature Medicine (https://doi.org/10.1038/s41591-024-03452-2).
 
 ## Temperature-related mortality exposure-response functions for 854 cities in Europe

@@ -151,6 +151,11 @@ p:has(img[src*="shields.io"]) {
   margin: 0;
 }
 
+/*img[src*="shields.io"] {
+/*  display: block;
+/*  margin-left: 0;
+/* } */
+
 
 @media (min-width: 769px) {
   #hero-textcell {
