@@ -45,7 +45,7 @@ jobs:
 
       - name: Render site
         run: |
-          quarto render
+          quarto render --execute
 
       - name: Commit and push updated docs
         run: |
