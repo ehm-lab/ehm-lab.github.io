@@ -18,22 +18,22 @@ DT::datatable(subset(ehm_pkgdf, select=-Description),
 
 ```
 
-# [dlnm](https://github.com/gasparrini/dlnm): `{r} subset(ehm_pkgdf,Package=="dlnm",select=Title)`
+# [dlnm](https://github.com/gasparrini/dlnm): `r subset(ehm_pkgdf,Package=="dlnm",select=Title)`
 
-`{r} subset(ehm_pkgdf,Package=="dlnm",select=Description)[[1]] `
+`r subset(ehm_pkgdf,Package=="dlnm",select=Description)[[1]] `
 
-# [mixmeta](https://github.com/gasparrini/mixmeta): `{r} subset(ehm_pkgdf,Package=="mixmeta",select=Title)`
+# [mixmeta](https://github.com/gasparrini/mixmeta): `r subset(ehm_pkgdf,Package=="mixmeta",select=Title)`
 
-`{r} subset(ehm_pkgdf,Package=="mixmeta",select=Description)[[1]] `
+`r subset(ehm_pkgdf,Package=="mixmeta",select=Description)[[1]] `
 
-# [mvmeta](https://github.com/gasparrini/mvmeta) `{r} subset(ehm_pkgdf,Package=="mvmeta",select=Title)`
+# [mvmeta](https://github.com/gasparrini/mvmeta) `r subset(ehm_pkgdf,Package=="mvmeta",select=Title)`
 
-`{r} subset(ehm_pkgdf,Package=="mvmeta",select=Description)[[1]] `
+`r subset(ehm_pkgdf,Package=="mvmeta",select=Description)[[1]] `
 
-# [cgaim](https://github.com/PierreMasselot/cgaim): `{r} subset(ehm_pkgdf,Package=="cgaim",select=Title)`
+# [cgaim](https://github.com/PierreMasselot/cgaim): `r subset(ehm_pkgdf,Package=="cgaim",select=Title)`
 
-`{r} subset(ehm_pkgdf,Package=="cgaim",select=Description)[[1]] `
+`r subset(ehm_pkgdf,Package=="cgaim",select=Description)[[1]] `
 
-# [cirls](https://github.com/PierreMasselot/cirls): `{r} subset(ehm_pkgdf,Package=="cirls",select=Title)`
+# [cirls](https://github.com/PierreMasselot/cirls): `r subset(ehm_pkgdf,Package=="cirls",select=Title)`
 
-`{r} subset(ehm_pkgdf,Package=="cirls",select=Description)[[1]] `
+`r subset(ehm_pkgdf,Package=="cirls",select=Description)[[1]] `
