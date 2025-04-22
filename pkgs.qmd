@@ -3,6 +3,8 @@ pagetitle: "EHM-Lab Packages"
 title: ""
 toc: false
 format: html
+execute:
+  eval: true
 ---
 
 ```{r}

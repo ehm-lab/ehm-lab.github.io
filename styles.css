@@ -144,10 +144,11 @@ body.quarto-dark .paginate_button.current {
   color: white !important;
 }
 
-p > a > img[src*="shields.io"] {
-  display: inline;
-  vertical-align: middle;
-  margin-left: 0;
+p:has(img[src*="shields.io"]) {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  margin: 0;
 }
 
 
