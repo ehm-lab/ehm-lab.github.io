@@ -12,6 +12,12 @@ library(rlang)
 
 dir.create("tables", showWarnings = FALSE)
 
+gh::gh(
+  "GET /users/{username}/repos", 
+  username = "ehm-lab", 
+  .token = Sys.getenv("GH_PAT")
+)
+
 # in rlang or make ourselves
 # `%||%` <- function(x, y) if (!is.null(x)) x else y
 
