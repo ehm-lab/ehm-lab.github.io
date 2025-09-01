@@ -6,6 +6,7 @@ on:
       - main  # or your default branch name
   # schedule:
    # - cron: '0 3 * * *'  # optional: runs daily at 3 AM UTC
+  workflow_dispatch:
 
 jobs:
   build-and-deploy:
