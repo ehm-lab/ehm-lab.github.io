@@ -15,7 +15,7 @@ jobs:
 
     env:
       # This was set on Github "Secrets-Variables"-"Actions"-with Arturo's API personal access token
-      GITHUB_PAT: ${{ secrets.GH_PAT_ADLC }}
+      GITHUB_PAT: ${{ secrets.GH_PAT }}
 
     steps:
       - name: Check out code
