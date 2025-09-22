@@ -12,7 +12,7 @@ Tag/Topic tracker
 |-------------------------------------------|-----------------------------|
 | Type | tutorial; analysis; simulation; shiny-app; dataset; package |
 | Area | air-pollution; heat-waves; temperature; mortality; infectious-disease; small-area-analysis; health-impact-projection; urban-health; health-impact-assessment; mcc |
-| Methods | distributed-lag-models; exposure-linkage; time-series; meta-analysis; bayesian; linear-mixed-effects; interrupted-time-series; case-time-series; study-design; penalized-regression; multi-stage-analysis; machine-learning; risk-attribution |
+| Methods | distributed-lag-models; exposure-linkage; time-series; meta-analysis; bayesian; linear-mixed-effects; interrupted-time-series; case-time-series; study-design; penalized-regression; multi-stage-analysis; machine-learning; risk-attribution; confounding |
 
 Site updates:  
 - at 3am  
