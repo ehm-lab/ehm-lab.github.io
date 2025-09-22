@@ -118,7 +118,7 @@ repo_df <- cbind(repo_df, do.call(rbind, lapply(repo_df$Tags, categorize_tags)))
 # repo_df[c("Tags", "Type", "Area", "Methods")] <- lapply(repo_df[c("Tags", "Type", "Area", "Methods")], factor)
 repo_df <- select(repo_df, 
                   Repository,About,Tags,Type,Area,Methods,DOI,Last.Push#,Stars,Forks
-                  )
+                  ) %>% arrange(desc(Last.Push)) %>% filter(About!="EHM-Lab resources site")
 
 all_repos <- subset(repo_df, select = -Tags)
 print("about to save first table")

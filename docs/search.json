@@ -7,25 +7,11 @@
     "text": "EHM-Lab code repositories\n\n\n\n\n\n\nSearch and subset repositories using the boxes\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n Back to top"
   },
   {
-    "objectID": "index.html",
-    "href": "index.html",
+    "objectID": "info_ehm_team_site/internal.html",
+    "href": "info_ehm_team_site/internal.html",
     "title": "EHM-Lab",
     "section": "",
-    "text": "The EHM-Lab is developing and applying state-of-the-art modelling tools to investigate environmental health risks. Here you can find software and data resources, and interactive visualisations of research outputs."
-  },
-  {
-    "objectID": "index.html#environment-and-health-modelling-lab",
-    "href": "index.html#environment-and-health-modelling-lab",
-    "title": "EHM-Lab",
-    "section": "",
-    "text": "The EHM-Lab is developing and applying state-of-the-art modelling tools to investigate environmental health risks. Here you can find software and data resources, and interactive visualisations of research outputs."
-  },
-  {
-    "objectID": "apps.html",
-    "href": "apps.html",
-    "title": "EUcityProj: Health Impact Projections Map Apps",
-    "section": "",
-    "text": "EUcityProj: Health Impact Projections Map Apps\n\nPaper: \n\nData repository: \n\nWeb-app: https://ehm-lab.shinyapps.io/vistemphip/\n\n\nMasselot, P., Mistry, M.N., Rao, S. et al. Estimating future heat-related and cold-related mortality under climate change, demographic and adaptation scenarios in 854 European cities. Nat Med (2025). https://doi.org/10.1038/s41591-024-03452-2\n\n\nA previous and slightly different version of this app can be found here: https://ehm-lab.shinyapps.io/hipmapp/\n\n\n\n\n Back to top"
+    "text": "Suggested structure for ehm-lab repos\n\nAbout: Short, single-sentence description.\nTopics: Prefer pre-selected tags (see topics below).\nREADME: Title matches “About” section. First DOI to appear will be extracted.\n\nChanges are still possible after forking and can be synced.\nTag/Topic tracker\n\n\n\n\n\n\n\n\ntags/topics\n\n\n\n\nType\ntutorial; analysis; simulation; shiny-app; dataset; package\n\n\nArea\nair-pollution; heat-waves; temperature; mortality; infectious-disease; small-area-analysis; health-impact-projection; urban-health; health-impact-assessment; mcc\n\n\nMethods\ndistributed-lag-models; exposure-linkage; time-series; meta-analysis; bayesian; linear-mixed-effects; interrupted-time-series; case-time-series; study-design; penalized-regression; multi-stage-analysis; machine-learning; risk-attribution\n\n\n\nSite updates:\n- at 3am\n- when workflow re-run from github (https://github.com/ehm-lab/ehm-lab.github.io/actions/workflows/build-site.yml)\n- when a new push is carried out (unless push message includes [skip ci])\n\n\n\n Back to top"
   },
   {
     "objectID": "data.html",
@@ -54,6 +40,27 @@
     "title": "Open-access data",
     "section": "",
     "text": "Stores synthetic datasets used to reproduce the analysis of long-term effects of air pollution in this article https://pubmed.ncbi.nlm.nih.gov/39435892/ as shown through this https://github.com/gasparrini/UKB-pm25deathlong GitHub repository."
+  },
+  {
+    "objectID": "apps.html",
+    "href": "apps.html",
+    "title": "EUcityProj: Health Impact Projections Map Apps",
+    "section": "",
+    "text": "EUcityProj: Health Impact Projections Map Apps\n\nPaper: \n\nData repository: \n\nWeb-app: https://ehm-lab.shinyapps.io/vistemphip/\n\n\nMasselot, P., Mistry, M.N., Rao, S. et al. Estimating future heat-related and cold-related mortality under climate change, demographic and adaptation scenarios in 854 European cities. Nat Med (2025). https://doi.org/10.1038/s41591-024-03452-2\n\n\nA previous and slightly different version of this app can be found here: https://ehm-lab.shinyapps.io/hipmapp/\n\n\n\n\n Back to top"
+  },
+  {
+    "objectID": "index.html",
+    "href": "index.html",
+    "title": "EHM-Lab",
+    "section": "",
+    "text": "The EHM-Lab is developing and applying state-of-the-art modelling tools to investigate environmental health risks. Here you can find software and data resources, and interactive visualisations of research outputs."
+  },
+  {
+    "objectID": "index.html#environment-and-health-modelling-lab",
+    "href": "index.html#environment-and-health-modelling-lab",
+    "title": "EHM-Lab",
+    "section": "",
+    "text": "The EHM-Lab is developing and applying state-of-the-art modelling tools to investigate environmental health risks. Here you can find software and data resources, and interactive visualisations of research outputs."
   },
   {
     "objectID": "pkgs.html",
