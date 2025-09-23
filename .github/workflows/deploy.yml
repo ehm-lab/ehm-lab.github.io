@@ -1,0 +1,33 @@
+# .github/workflows/deploy.yml
+
+name: Deploy Quarto Website
+
+on:
+  push:
+    branches: [ main ]
+  workflow_dispatch:
+
+jobs:
+  build-deploy:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Check out repository
+        uses: actions/checkout@v4
+
+      # This action sets up R and caches packages based on your DESCRIPTION file
+      - name: Set up R and cache dependencies
+        uses: r-lib/actions/setup-r-dependencies@v2
+        with:
+          packages: any::local # The 'any::local' tells it to look for the DESCRIPTION file
+
+      # Your script to rebuild the RDS files in the 'tables' directory
+      - name: Run data build script
+        run: Rscript build_data_ehm_site.R
+
+      # The magic step: render and deploy the site
+      - name: Render and Deploy
+        uses: quarto-dev/quarto-actions/publish@v2
+        with:
+          target: gh-pages # Deploys to the gh-pages branch
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
