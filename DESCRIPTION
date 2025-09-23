@@ -1,0 +1,20 @@
+Package: ehmlab-site
+Title: Pkg imports for EHM-Lab Resources Website
+Version: 1.0
+Authors@R: person("Arturo", "de la Cruz Libardi", email = "lshad21@lshtm.ac.uk", role = c("aut", "cre"))
+Description: R packages needed to build the EHM-Lab website.
+License: MIT
+Encoding: UTF-8
+Imports: 
+    rmarkdown,
+    cranlogs,
+    knitr,
+    stringr,
+    tools,
+    gh,
+    dplyr,
+    purrr,
+    base64enc,
+    commonmark,
+    rlang,
+    DT
