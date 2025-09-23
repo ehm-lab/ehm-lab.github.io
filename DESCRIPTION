@@ -5,7 +5,7 @@ Authors@R: person("Arturo", "de la Cruz Libardi", email = "lshad21@lshtm.ac.uk",
 Description: R packages needed to build the EHM-Lab website.
 License: MIT
 Encoding: UTF-8
-Imports: 
+Imports:
     rmarkdown,
     cranlogs,
     knitr,
