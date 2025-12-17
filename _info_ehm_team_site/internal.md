@@ -16,5 +16,5 @@ Tag/Topic tracker
 
 Site updates:  
 - at 3am  
-- when workflow re-run from github (https://github.com/ehm-lab/ehm-lab.github.io/actions/workflows/build-site.yml)  
+- when workflow re-run from github Actions
 - when a new push is carried out (unless push message includes [skip ci])  
