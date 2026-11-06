@@ -23,9 +23,16 @@
   {
     "objectID": "apps.html",
     "href": "apps.html",
-    "title": "EUcityProj: Health Impact Projections Map Apps",
+    "title": "UK-Heatwaves 2026: Heatwave related mortality estimates in the summer of 2026",
     "section": "",
-    "text": "EUcityProj: Health Impact Projections Map Apps\n\nPaper: \n\nData repository: \n\nWeb-app: https://ehm-lab.shinyapps.io/vistemphip/\n\n\nMasselot, P., Mistry, M.N., Rao, S. et al. Estimating future heat-related and cold-related mortality under climate change, demographic and adaptation scenarios in 854 European cities. Nat Med (2025). https://doi.org/10.1038/s41591-024-03452-2\n\n\nA previous and slightly different version of this app can be found here: https://ehm-lab.shinyapps.io/hipmapp/\n\n\n\n\n Back to top"
+    "text": "UK-Heatwaves 2026: Heatwave related mortality estimates in the summer of 2026\n\nResearch Communication \nCode & Data repository: https://github.com/ehm-lab/UK-HW2026\n\nWeb-app: https://ehm-lab.github.io/apps/uk-hw2026/\n\n\n\nEUcityProj: Health Impact Projections Map\n\nPaper: \n\nData repository: \n\nWeb-app: https://ehm-lab.shinyapps.io/vistemphip/\n\n\nMasselot, P., Mistry, M.N., Rao, S. et al. Estimating future heat-related and cold-related mortality under climate change, demographic and adaptation scenarios in 854 European cities. Nat Med (2025). https://doi.org/10.1038/s41591-024-03452-2\n\n\n\n\n\n\n\n\n\n Back to top"
+  },
+  {
+    "objectID": "apps/uk-hw2026/index.html",
+    "href": "apps/uk-hw2026/index.html",
+    "title": "UK-HW2026",
+    "section": "",
+    "text": "Redirecting to https://uk-hw2026.netlify.app/…\nIf you are not redirected automatically, click here to open UK-HW2026.\n\n\n\n\n Back to top"
   },
   {
     "objectID": "data.html",

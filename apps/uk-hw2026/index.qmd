@@ -1,0 +1,21 @@
+---
+pagetitle: "UK-HW2026 | EHM-Lab"
+title: "UK-HW2026"
+toc: false
+format:
+  html:
+    include-in-header:
+      - text: |
+          <meta http-equiv="refresh" content="0; url=https://uk-hw2026.netlify.app/">
+          <link rel="canonical" href="https://uk-hw2026.netlify.app/">
+---
+
+Redirecting to [https://uk-hw2026.netlify.app/](https://uk-hw2026.netlify.app/)...
+
+If you are not redirected automatically, [click here to open UK-HW2026](https://uk-hw2026.netlify.app/).
+
+```{=html}
+<script>
+  window.location.replace("https://uk-hw2026.netlify.app/");
+</script>
+```

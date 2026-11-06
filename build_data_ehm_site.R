@@ -12,6 +12,7 @@ library(rlang)
 
 dir.create("tables", showWarnings = FALSE)
 
+# token empty
 gh::gh(
   "GET /users/{username}/repos", 
   username = "ehm-lab", 
@@ -60,7 +61,7 @@ get_readme_snippet <- function(owner, repo, url) {
 # Tag categories
 tag_categories <- list(
   Type = c(
-    "tutorial", "analysis", "simulation", "shiny-app", "dataset", "package"
+    "tutorial", "analysis", "simulation", "shiny-app", "dataset", "package", "app"
     ),
   Area = c(
     "air-pollution","heat-waves" ,"temperature","mortality","infectious-disease",

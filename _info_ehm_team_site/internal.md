@@ -15,6 +15,5 @@ Tag/Topic tracker
 | Methods | distributed-lag-models; exposure-linkage; time-series; meta-analysis; bayesian; linear-mixed-effects; interrupted-time-series; case-time-series; study-design; penalized-regression; multi-stage-analysis; machine-learning; risk-attribution; confounding |
 
 Site updates:  
-- at 3am  
 - when workflow re-run from github Actions
 - when a new push is carried out (unless push message includes [skip ci])  

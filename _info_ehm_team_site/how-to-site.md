@@ -1,6 +1,6 @@
 # Making changes and publishing the ehm-lab.github.io
 
-Hey there, I hope you are here becasue you have made some changes to this repo (which you know produces and serves our lab website to the internet) and now you want the repo and/or the website to be updated accordingly.
+Hey there, I hope you are here because you have made some changes to this repo (which you know produces and serves our lab website to the internet) and now you want the repo and/or the website to be updated accordingly.
 
 To update repo and github.io site -> Commit-Push your changes to the main branch then wait for the auto-render-publish workflow to run (anywhere from 1 to 15 minutes).  
 To update repo but not site -> add [skip ci] to the commit message.  
