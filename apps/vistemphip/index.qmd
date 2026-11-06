@@ -1,0 +1,21 @@
+---
+pagetitle: "vistemphip | EHM-Lab"
+title: "vistemphip"
+toc: false
+format:
+  html:
+    include-in-header:
+      - text: |
+          <meta http-equiv="refresh" content="0; url=https://ehm-lab.shinyapps.io/vistemphip/">
+          <link rel="canonical" href="https://ehm-lab.shinyapps.io/vistemphip/">
+---
+
+Redirecting to [https://ehm-lab.shinyapps.io/vistemphip/](https://ehm-lab.shinyapps.io/vistemphip/)...
+
+If you are not redirected automatically, [click here to open the app](https://ehm-lab.shinyapps.io/vistemphip/).
+
+```{=html}
+<script>
+  window.location.replace("https://ehm-lab.shinyapps.io/vistemphip/");
+</script>
+```
