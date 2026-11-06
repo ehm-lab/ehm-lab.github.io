@@ -2,34 +2,38 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url>
     <loc>https://ehm-lab.github.io/apps.html</loc>
-    <lastmod>2026-11-06T15:32:38.355Z</lastmod>
+    <lastmod>2026-11-06T16:12:17.427Z</lastmod>
   </url>
   <url>
     <loc>https://ehm-lab.github.io/apps/uk-hw2026/index.html</loc>
-    <lastmod>2026-11-06T15:32:38.355Z</lastmod>
-  </url>
-  <url>
-    <loc>https://ehm-lab.github.io/rcode_byresarea.html</loc>
-    <lastmod>2026-11-06T15:32:38.364Z</lastmod>
-  </url>
-  <url>
-    <loc>https://ehm-lab.github.io/rcode.html</loc>
-    <lastmod>2026-11-06T15:32:38.364Z</lastmod>
-  </url>
-  <url>
-    <loc>https://ehm-lab.github.io/data.html</loc>
-    <lastmod>2026-11-06T15:32:38.355Z</lastmod>
-  </url>
-  <url>
-    <loc>https://ehm-lab.github.io/rcode_bytype.html</loc>
-    <lastmod>2026-11-06T15:32:38.364Z</lastmod>
+    <lastmod>2026-11-06T16:12:17.427Z</lastmod>
   </url>
   <url>
     <loc>https://ehm-lab.github.io/pkgs.html</loc>
-    <lastmod>2026-11-06T15:32:38.364Z</lastmod>
+    <lastmod>2026-11-06T16:12:17.440Z</lastmod>
+  </url>
+  <url>
+    <loc>https://ehm-lab.github.io/rcode_bytype.html</loc>
+    <lastmod>2026-11-06T16:12:17.440Z</lastmod>
+  </url>
+  <url>
+    <loc>https://ehm-lab.github.io/data.html</loc>
+    <lastmod>2026-11-06T16:12:17.427Z</lastmod>
+  </url>
+  <url>
+    <loc>https://ehm-lab.github.io/rcode.html</loc>
+    <lastmod>2026-11-06T16:12:17.440Z</lastmod>
+  </url>
+  <url>
+    <loc>https://ehm-lab.github.io/rcode_byresarea.html</loc>
+    <lastmod>2026-11-06T16:12:17.440Z</lastmod>
+  </url>
+  <url>
+    <loc>https://ehm-lab.github.io/apps/vistemphip/index.html</loc>
+    <lastmod>2026-11-06T16:12:17.427Z</lastmod>
   </url>
   <url>
     <loc>https://ehm-lab.github.io/index.html</loc>
-    <lastmod>2026-11-06T15:32:38.364Z</lastmod>
+    <lastmod>2026-11-06T16:12:17.440Z</lastmod>
   </url>
 </urlset>
